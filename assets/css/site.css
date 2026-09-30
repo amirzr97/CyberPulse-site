@@ -157,7 +157,7 @@ h1, h2, h3, p { margin-top: 0; }
 .cloud-story { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 2rem; padding: 2.25rem; border: 1px solid rgba(139, 217, 222, .18); background: linear-gradient(120deg, rgba(73, 166, 169, .07), transparent 48%), #111817; scroll-margin-top: 6rem; }
 .cloud-story-heading { grid-column: 2; display: flex; flex-wrap: wrap; align-items: center; gap: .7rem 1rem; margin-bottom: -.6rem; }
 .severity-note { color: #a9c9c9; font: 600 .59rem/1.4 var(--mono); letter-spacing: .06em; text-transform: uppercase; }
-.cloud-story > h3, .cloud-story > p, .cloud-story > .date-pair, .cloud-story > .exclusion-box, .cloud-story > .recommendation, .cloud-story > .story-links { grid-column: 2; }
+.cloud-story > h3, .cloud-story > p, .cloud-story > .article-detail, .cloud-story > .date-pair, .cloud-story > .exclusion-box, .cloud-story > .recommendation, .cloud-story > .story-links { grid-column: 2; }
 .exclusion-box { display: flex; gap: .7rem; padding: 1rem 1.1rem; border: 1px solid rgba(139, 217, 222, .16); background: rgba(139, 217, 222, .045); }
 .exclusion-box p { margin: 0; color: #c6d5d3; font-size: .78rem; line-height: 1.7; }
 .exclusion-box strong { color: #e2ffff; }
@@ -269,7 +269,7 @@ html[dir="rtl"] .article-detail .story-caveat { border-right: 2px solid var(--gr
   .date-pair { grid-template-columns: 1fr; }
   .date-pair > div { padding: .8rem; }
   .cloud-story { grid-template-columns: 1fr; gap: 1rem; padding: 1.3rem; }
-  .cloud-story-heading, .cloud-story > h3, .cloud-story > p, .cloud-story > .date-pair, .cloud-story > .exclusion-box, .cloud-story > .recommendation, .cloud-story > .story-links { grid-column: 1; }
+  .cloud-story-heading, .cloud-story > h3, .cloud-story > p, .cloud-story > .article-detail, .cloud-story > .date-pair, .cloud-story > .exclusion-box, .cloud-story > .recommendation, .cloud-story > .story-links { grid-column: 1; }
   .cloud-story-heading { margin-bottom: 0; }
   .cloud-index { font-size: 2rem; }
   .cloud-index span { display: inline; margin-left: .5rem; }
